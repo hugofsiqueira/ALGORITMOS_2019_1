@@ -13,14 +13,14 @@ public class MediaProvas {
 		
 		int x = 3876;
 		
-		
-		
-		
 		/**
 		 * DESAFIO:
 		 * 
 		 * Definir uma variável que contenha um numero inteiro de 4 algarismos e 
 		 * imprimir o algarismo da unidade, dezena, centena e milhar separadamente.
+		 * 
+		 * ALTERACAO
+		 * ALTERACAO
 		 * 
 		 */
 		
