@@ -4,6 +4,21 @@ import java.util.Scanner;
 
 public class Calculadora {
 	
+	
+	public static double somar(double a, double b) {
+		return a + b;
+	}
+	
+	public void imprimirMaiuscula(String texto) {
+		System.out.println(texto.toUpperCase());
+	}
+	
+	public double calcularAreaQuadrado(double lado) {
+		return lado*lado;
+	}
+	
+	
+	
 	/**
 	 * Fazer um programa que leia do usuario 2 numeros decimais e o um numero
 	 * inteiro representando a operação que ele deseja executar.
@@ -20,6 +35,15 @@ public class Calculadora {
 	 */
 
 	public static void main(String[] args) {
+		
+		Math.min(1, 2);
+		Math.random();
+		double x = Math.PI;
+		
+		double resposta2 = Math.pow(9, 3);
+		
+		double resposta = Calculadora.somar(4, 5);
+		
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite o primeiro numero");
